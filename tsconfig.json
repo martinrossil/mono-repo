@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2021", // we stop at 2021, since it's the highest we can go when using the closure compiler.
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "strict": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "composite": true,
+        "declaration": true,
+        "declarationMap": false,
+        "inlineSourceMap": true,
+        "incremental": true
+    }
+}
